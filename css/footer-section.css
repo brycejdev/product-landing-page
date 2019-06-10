@@ -1,0 +1,50 @@
+footer {
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  );
+  padding-top: 3rem;
+}
+
+footer .logo {
+  position: relative;
+  left: 450px;
+  margin-bottom: 1rem;
+}
+footer .logo img {
+  height: 40px;
+  width: 60px;
+}
+footer p {
+  text-align: center;
+}
+
+footer .logos {
+  margin-bottom: 1rem;
+}
+
+footer .logos img {
+  height: 30px;
+  width: 30px;
+  margin-right: 1rem;
+  position: relative;
+  left: 395px;
+}

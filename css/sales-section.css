@@ -213,24 +213,47 @@
 #sales-section .container .text {
   display: inline-block;
   width: 30%;
-  position: relative;
-  bottom: 2rem;
   padding: 0 0 0 1rem;
+  position: relative;
+  top: 2rem;
 }
 #sales-section .container .text h1 {
   font-size: 3rem;
   color: #fff;
   letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 1.8rem;
+}
+
+#sales-section .container .text a {
+  font-size: 1.5rem;
+  color: #fff;
+  background: #2989d8;
+  padding: 10px 100px;
+  border-radius: 35px;
+  transition: all 0.4s ease-in-out;
+}
+#sales-section .container .text a:hover {
+  color: #2989d8;
+  background: #fff;
 }
 
 #sales-section .container .price {
   display: inline-block;
   width: 200px;
   margin-right: 1rem;
+  padding-top: 1rem;
 }
 
-#sales-section .container .price h2 {
+#sales-section .container .price p {
   font-size: 2rem;
   color: #fff;
   text-align: center;
+}
+
+#sales-section .container .price h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 1rem;
 }

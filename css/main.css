@@ -4,6 +4,7 @@
 @import 'mid-section-features.css';
 @import 'mid-section-custom.css';
 @import 'sales-section.css';
+@import 'footer-section.css';
 html {
   font-family: 'Teko', sans-serif;
 }
