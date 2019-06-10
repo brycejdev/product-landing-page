@@ -1,0 +1,87 @@
+header {
+  padding: 0 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  );
+}
+
+header .logo {
+}
+header .nav {
+  width: 100%;
+}
+
+header .nav a {
+  margin: 0 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #29abe2;
+}
+header .nav a:hover {
+  color: #0037c0;
+}
+
+header .header-btns {
+  grid-column: 4/5;
+  justify-self: end;
+}
+
+header .logo {
+  background: url(../img/z7-logo-1.png) no-repeat center center;
+  background-size: contain;
+  height: 80px;
+  width: 100px;
+}
+
+header .header-btns .cart {
+  background: #0037c0;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.35);
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.35);
+}
+
+header .header-btns a:hover {
+  color: orange;
+}
+header .header-btns .sign-up {
+  background: #29abe2;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  -webkit-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.35);
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.35);
+  margin-left: 3rem;
+}
+header .header-btns .cart .fab {
+  margin-left: 10px;
+}

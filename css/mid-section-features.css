@@ -1,0 +1,277 @@
+#mid-section {
+  padding: 3rem 0 0 0;
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  );
+}
+
+#mid-section .container .feature-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  bottom: 11rem;
+}
+
+#mid-section .container .feature-container .features {
+  padding: 2rem 1.5rem;
+  background: url(../img/feature-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+#mid-section .container .feature-container .feature-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* =====================overlay 1==================================== */
+#mid-section .container .feature-container .feature-img .img1 {
+  background: url(../img/img2.jpeg) center center no-repeat;
+  background-size: cover;
+  height: 150px;
+  position: relative;
+}
+#mid-section .container .feature-container .feature-img .img1:hover {
+  cursor: pointer;
+}
+#mid-section .container .feature-container .feature-img .img1 .overlay {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  background-color: #29abe2;
+}
+
+#mid-section .container .feature-container .feature-img .img1:hover .overlay {
+  opacity: 0.7;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img1:hover
+  .overlay-cross-lt {
+  height: 100%;
+  width: 100%;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img1
+  .overlay-cross-lt {
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+}
+
+#mid-section .container .feature-container .feature-img .img1 .text {
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+/* =====================overlay 2==================================== */
+#mid-section .container .feature-container .feature-img .img2 {
+  background: url(../img/img1.jpeg) center center no-repeat;
+  background-size: cover;
+  height: 150px;
+  position: relative;
+}
+#mid-section .container .feature-container .feature-img .img2:hover {
+  cursor: pointer;
+}
+#mid-section .container .feature-container .feature-img .img2 .overlay {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  background-color: #29abe2;
+}
+
+#mid-section .container .feature-container .feature-img .img2:hover .overlay {
+  opacity: 0.7;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img2:hover
+  .overlay-cross-lt {
+  height: 100%;
+  width: 100%;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img2
+  .overlay-cross-lt {
+  height: 0;
+  width: 0;
+  top: 0;
+  right: 0;
+}
+
+#mid-section .container .feature-container .feature-img .img2 .text {
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+/* =====================overlay 3==================================== */
+#mid-section .container .feature-container .feature-img .img3 {
+  background: url(../img/img3.jpeg) center center no-repeat;
+  background-size: cover;
+  height: 150px;
+  position: relative;
+}
+#mid-section .container .feature-container .feature-img .img3:hover {
+  cursor: pointer;
+}
+#mid-section .container .feature-container .feature-img .img3 .overlay {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  background-color: #29abe2;
+}
+
+#mid-section .container .feature-container .feature-img .img3:hover .overlay {
+  opacity: 0.7;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img3:hover
+  .overlay-cross-lt {
+  height: 100%;
+  width: 100%;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img3
+  .overlay-cross-lt {
+  height: 0;
+  width: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#mid-section .container .feature-container .feature-img .img3 .text {
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+
+/* =====================overlay 4==================================== */
+#mid-section .container .feature-container .feature-img .img4 {
+  background: url(../img/img4.jpeg) center center no-repeat;
+  background-size: cover;
+  height: 150px;
+  position: relative;
+}
+#mid-section .container .feature-container .feature-img .img4:hover {
+  cursor: pointer;
+}
+#mid-section .container .feature-container .feature-img .img4 .overlay {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  background-color: #29abe2;
+}
+
+#mid-section .container .feature-container .feature-img .img4:hover .overlay {
+  opacity: 0.7;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img4:hover
+  .overlay-cross-lt {
+  height: 100%;
+  width: 100%;
+}
+#mid-section
+  .container
+  .feature-container
+  .feature-img
+  .img4
+  .overlay-cross-lt {
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#mid-section .container .feature-container .feature-img .img4 .text {
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+/* ==================END OF OVERLAYS============================================== */
+#mid-section .container .feature-container .features h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+#mid-section .container .feature-container .features .text {
+  margin-top: 10px;
+}
+
+#mid-section .container .feature-container .features .fas {
+  font-size: 1rem;
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+}
+#mid-section .container .feature-container .features p {
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+#mid-section .container .feature-container .features a {
+  background: #fff;
+  padding: 10px 60px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 5rem;
+  color: #29abe2;
+}

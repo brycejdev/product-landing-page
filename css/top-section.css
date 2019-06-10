@@ -1,0 +1,91 @@
+#top-section {
+  padding: 3rem 0 12rem 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,7db9e8+100 */
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e5799 0%,
+    #2989d8 45%,
+    #2989d8 45%,
+    #7db9e8 100%
+  );
+}
+.top-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#top-section .container .top-cols .text h1 {
+  font-size: 15rem;
+  color: #1e5799;
+}
+#top-section .container .top-cols .text h2 {
+  font-size: 5rem;
+  color: #fff;
+  z-index: 2;
+  position: relative;
+  bottom: 3.8rem;
+  left: 0.5rem;
+  opacity: 0.8;
+  letter-spacing: 3px;
+}
+#top-section .container .top-cols .text p {
+  position: relative;
+  bottom: 3rem;
+  left: 0.5rem;
+  font-size: 1.5rem;
+}
+#top-section .container .top-cols .text input {
+  position: relative;
+  right: 10px;
+  background: #fff;
+  border: none;
+  border-radius: 35px;
+  height: 3rem;
+  width: 80%;
+  padding: 10px 40px;
+  outline: none;
+}
+#top-section .container .top-cols .text .fas {
+  position: relative;
+  left: 1.3rem;
+  top: 3px;
+  z-index: 2;
+  color: grey;
+}
+#top-section .container .top-cols .text .send {
+  padding: 10px 30px;
+  background: #2989d8;
+  border-radius: 35px;
+  height: 2rem;
+  width: 10px;
+  z-index: 2;
+  position: relative;
+  left: 19rem;
+  bottom: 31px;
+  color: white;
+  text-transform: uppercase;
+}
+#top-section .container .top-cols .text .send a:hover {
+  background: #1e5799;
+}
+#top-section .container .top-cols .top-img {
+  background: url(../img/lens1.png) center center no-repeat;
+  background-size: contain;
+  height: 400px;
+  width: 100%;
+}

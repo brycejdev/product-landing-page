@@ -1,0 +1,29 @@
+@import 'reset.css';
+@import 'header.css';
+@import 'top-section.css';
+@import 'mid-section-features.css';
+@import 'mid-section-custom.css';
+@import 'sales-section.css';
+html {
+  font-family: 'Teko', sans-serif;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*SM*/
+@media screen and (max-width: 500px) {
+}
+
+/*MD*/
+@media screen and (max-width: 768px) {
+}
+
+/*LG*/
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+}
+
+/*XL*/
+@media screen and (min-width: 1171px) {
+}
